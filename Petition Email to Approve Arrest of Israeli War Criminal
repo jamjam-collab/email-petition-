@@ -4,44 +4,68 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Send Email Petition</title>
+<title>Email Petition</title>
+
 <style>
 body {
     font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 40px;
+}
+
+.container {
     max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
     text-align: center;
+}
+
+p {
     line-height: 1.6;
 }
+
 .button {
-    display: inline-block;
-    background: #0d6efd;
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    background: #0066cc;
     color: white;
-    padding: 16px 32px;
     text-decoration: none;
+    padding: 18px 36px;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
 }
+
 .button:hover {
-    background: #0b5ed7;
+    background: #004d99;
 }
 </style>
+
 </head>
+
 <body>
 
-<h1>Send an Email to Indian Authorities</h1>
+<div class="container">
+
+<h1>Send Email to Authorities</h1>
 
 <p>
-Click the button below to open a pre-written email in your default email application.
-Review the message and send it if you wish.
+Click the button below to open a pre-written email. Review it and send it if you wish.
 </p>
 
-<a class="button"
-href="mailto:jscpg-mha@mha.gov.in,hshso@nic.in,dr-immigration@nic.in,us.petitions@rb.nic.in,press.secy@rb.nic.in?subject=Demand%20For%20Approval%20Of%20The%20Arrest%20Request%20of%20Eitan%20Gilboa%2C%20An%20Israeli%20National&body=Greetings%2C%0A%0AThe%20Hind%20Rajab%20Foundation%20has%20submitted%20a%20detailed%20investigative%20report%20proving%20that%20Etian%20Gilboa%20has%20personally%20carried%20out%20systematic%20demolition%20of%20entire%20residential%20blocks%20in%20Gaza%2C%20and%20is%20guilty%20of%20war%20crimes%20under%20the%20Geneva%20Conventions%20Act%2C%201960.%0A%0AIndian%20Authorities%20are%20morally%20obligated%20to%20approve%20the%20arrest%20request%20of%20this%20individual%2C%20who%20is%20a%20war%20criminal%20and%20currently%20on%20Indian%20soil.%0A%0AWe%20demand%20the%20Ministry%20of%20Home%20Affairs%2C%20the%20Bureau%20of%20Immigration%2C%20and%20all%20relevant%20authorities%20to%20not%20allow%20India%20to%20become%20a%20safe%20haven%20to%20terrorists%20and%20war%20criminals.%0A%0AOur%20morality%2C%20our%20conscience%2C%20our%20values%20and%20our%20history%20has%20taught%20us%20to%20stand%20for%20those%20who%20cannot%20stand%20for%20themselves%20and%20always%20speak%20out%20against%20oppression.%0A%0AApprove%20the%20arrest%20request%20by%20Hind%20Rajab%20Foundation.%0A%0AYours%20respectfully%2C%0ACitizens%20of%20India.%0A%0AJai%20Bharat.">
-Send Email </a>
+<a class="button" href="mailto:jscpg-mha@mha.gov.in,hshso@nic.in,dr-immigration@nic.in,us.petitions@rb.nic.in,press.secy@rb.nic.in?subject=Demand%20For%20Approval%20Of%20The%20Arrest%20Request%20of%20Eitan%20Gilboa%2C%20An%20Israeli%20National&body=Greetings%2C%0A%0AThe%20Hind%20Rajab%20Foundation%20has%20submitted%20a%20detailed%20investigative%20report%20proving%20that%20Etian%20Gilboa%20has%20personally%20carried%20out%20systematic%20demolition%20of%20entire%20residential%20blocks%20in%20Gaza%2C%20and%20is%20guilty%20of%20war%20crimes%20under%20the%20Geneva%20Conventions%20Act%2C%201960.%0A%0AIndian%20Authorities%20are%20morally%20obligated%20to%20approve%20the%20arrest%20request%20of%20this%20individual%2C%20who%20is%20a%20war%20criminal%20and%20currently%20on%20Indian%20soil.%0A%0AWe%20demand%20the%20Ministry%20of%20Home%20Affairs%2C%20the%20Bureau%20of%20Immigration%2C%20and%20all%20relevant%20authorities%20to%20not%20allow%20India%20to%20become%20a%20safe%20haven%20to%20terrorists%20and%20war%20criminals.%0A%0AOur%20morality%2C%20our%20conscience%2C%20our%20values%20and%20our%20history%20has%20taught%20us%20to%20stand%20for%20those%20who%20cannot%20stand%20for%20themselves%20and%20always%20speak%20out%20against%20oppression.%0A%0AHaving%20been%20colonized%20and%20destroyed%20by%20outside%20forces%2C%20India%20cannot%20become%20the%20very%20entity%20it%20was%20once%20oppressed%20by.%0A%0AApprove%20the%20arrest%20request%20by%20Hind%20Rajab%20Foundation.%0A%0AYours%20respectfully%2C%0ACitizens%20of%20India.%0A%0AJai%20Bharat.">
+📧 Send Email
+</a>
+
+</div>
 
 </body>
 </html>
-
